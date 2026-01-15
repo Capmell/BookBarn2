@@ -8,5 +8,11 @@ namespace BookBarn2.Controllers
         {
             return View();
         }
+        [Route("Authors/Details")]
+        public IActionResult Details()
+        {
+            return View();
+        }
+
     }
 }
